@@ -21,15 +21,6 @@
     },
     components: { 
         FriendModule 
-    },
-    mounted() {
-        console.log("mounted")
-    },
-    updated() {
-        console.log("changed")
-    },
-    unmounted() {
-        console.log("unmounted")
     }
 }
 </script>
