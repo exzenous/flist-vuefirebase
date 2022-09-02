@@ -33,6 +33,7 @@
             <p class="text-xs text-right">Date: {{ event.date }}</p>
         </div>
         <FriendModule :friendsProps="event.friendsList" />
+        <button class="border-solid border-2 border-green-600 bg-green-500 text-white rounded mr-4 px-4" >Edit</button>
         <button class="border-solid border-2 border-red-600 bg-red-500 text-white rounded" @click="removeEvent(event)" >Remove</button>
     </div>
 </template>
